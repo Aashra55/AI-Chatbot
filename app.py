@@ -12,6 +12,11 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
+available_models = genai.list_models()
+
+for model in available_models:
+    print(model.name)
+
 # Function to get response from Gemini
 def chat_with_gemini(prompt):
     model = genai.GenerativeModel("gemini-1.5-pro-latest")
