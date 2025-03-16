@@ -75,7 +75,7 @@ st.markdown("""
         }
         .stFormSubmitButton>button {
             background: linear-gradient(135deg, #6a11cb, #2575fc);
-            width: 10%;
+            width: 120px;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
